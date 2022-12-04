@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABLE</title>
+</head>
+<style>
+  input{
+    width: 55px;
+  }
+  body {
+          background-color: pink;
+        }
+  div{
+    border: 1px solid red;
+    padding: 4px;
+    margin: 4px;
+    width: 80%;
+  }
+  #cont{
+    border: none;
+    width: 20%;
+  }
+  @media all and (min-width: 20px) and (max-width: 768px) {
+body {
+ background-color: pink;
+}
+
+div{
+    border: 2px solid rgb(12, 11, 11);
+    color: white;
+  }
+  #cont{
+    border: none;
+    width: 100%;
+  }
+      }
+</style>
+<body>
+    <center>
+        <!-- <h1>TABLE</h1> -->
+        <p>WRITE YOUR TABLE HERE</p>
+        <input type="number" placeholder="TABLE" id="table">
+        <input type="number" placeholder="TIMES" id="times">
+        <button onclick="table()">FIND TABLE</button>
+        <div id="cont"></div>
+        <button onclick="CLEAR()">CLEAR</button>
+    </center>
+</body>
+</html>
+<script>
+let cont = document.getElementById('cont');
+
+function table(){
+  let x=document.getElementById("table").value;
+  let y=document.getElementById("times").value;
+  console.log(x);
+  // alert(`${x} this is the number`)
+  main(x,y||10);
+  document.getElementById("table").value=null;
+  document.getElementById("times").value=null;
+}
+
+
+function main(x,y){
+  cont.innerHTML=null;
+  for(let i=0; i<y; i++){
+    let h = document.createElement("div");
+    
+    h.innerHTML=`${x} * ${i+1} = ${x*(i+1)}`;
+    cont.append(h);
+    
+  }
+}
+function CLEAR(){
+  cont.innerHTML=null;
+}
+</script>
+
+   
+    
+    
+    
+   
+
+
+<!-- 
+// <html>
+//   <head>
+//     <title>Check Strings are Anagram</title>
+//     <script>
+//       function checkAnagram(str1, str2) {
+//         let ObjStr1 = {};
+//         if (str1.length !== str2.length) {
+//           return false;
+//         }
+//         for (ch of str1) {
+//           // console.warn(ch)
+//           ObjStr1[ch] = (ObjStr1[ch] || 0) + 1;
+//         }
+//         // console.warn(ObjStr1);
+//         for (ch of str2) {
+//         //   console.warn(ObjStr1[ch]);
+//           if (!ObjStr1[ch]) {
+//             return false;
+//           }
+//           ObjStr1[ch]--;
+//         }
+//         return true
+//       }
+
+//       console.warn(checkAnagram("anil", "nila"));
+//     </script>
+//   </head>
+//   <body>
+//     <h1>Check Strings are Anagram</h1>
+//   </body>
+// </html> -->
