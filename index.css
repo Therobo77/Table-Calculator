@@ -1,0 +1,30 @@
+input{
+    width: 55px;
+  }
+  body {
+          background-color: pink;
+        }
+  div{
+    border: 1px solid red;
+    padding: 4px;
+    margin: 4px;
+    width: 80%;
+  }
+  #cont{
+    border: none;
+    width: 20%;
+  }
+  @media all and (min-width: 20px) and (max-width: 768px) {
+body {
+ background-color: pink;
+}
+
+div{
+    border: 2px solid rgb(12, 11, 11);
+    color: white;
+  }
+  #cont{
+    border: none;
+    width: 100%;
+  }
+      }
