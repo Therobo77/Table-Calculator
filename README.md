@@ -1,5 +1,7 @@
 # Table-Calculator
 
+### This is a Table Creator app Created by me only, within 45 minutes Where an user can create tables of a desired number till desired times . 
+
 ## Project look like this
 
 ![image](https://user-images.githubusercontent.com/105917542/205499663-380dc846-91dc-4ff7-aad3-b63eb21eaa79.png)
