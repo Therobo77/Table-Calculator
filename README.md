@@ -1,6 +1,6 @@
 # Table-Calculator
 
-### This is a Table Creator app Created by me only, within 45 minutes Where an user can create tables of a desired number till desired times . 
+### This is a Table Creator app Created by me only, within 45 minutes Where a user can create tables of the desired number till desired times . 
 
 ## Project look like this
 
