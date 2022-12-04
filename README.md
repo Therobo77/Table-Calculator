@@ -4,10 +4,13 @@
 
 ![image](https://user-images.githubusercontent.com/105917542/205499663-380dc846-91dc-4ff7-aad3-b63eb21eaa79.png)
 
+## Responsive
+
+![image](https://user-images.githubusercontent.com/105917542/205500201-0cb36f28-0936-4e8c-9ffb-e3316e8f2fe7.png)
 
 ## Build with
 
-# HTML  CSS JAVASCRIPT
+### HTML | CSS  | JAVASCRIPT
 
 ## Functionalities
 
